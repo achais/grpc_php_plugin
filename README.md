@@ -1,3 +1,11 @@
+#### 提示: 这个仓库是fork来的, 有个坑, grpc_php_plugin.exe 直接复制走没用, 同级目录下还有2个.dll文件, 也要一起拿走
+
+#### 提示: 这个仓库是fork来的, 有个坑, grpc_php_plugin.exe 直接复制走没用, 同级目录下还有2个.dll文件, 也要一起拿走
+
+#### 提示: 这个仓库是fork来的, 有个坑, grpc_php_plugin.exe 直接复制走没用, 同级目录下还有2个.dll文件, 也要一起拿走
+
+⬆️⬆️⬆️⬆️⬆️⬆️
+
 ### 朋友需要在windows下进行php+grpc的相关开发，然后发现官方的grpc未提供windows下的php plugin的exe文件，故建立此项目，希望能够帮助更多的以windows为开发环境的开发者。 
 
 # 这是一个grpc+protobuf的windows版本
