@@ -1,8 +1,9 @@
 #### 提示: 这个仓库是fork来的, 有个坑, grpc_php_plugin.exe 直接复制走没用, 同级目录下还有2个.dll文件, 也要一起拿走
 
-#### 提示: 这个仓库是fork来的, 有个坑, grpc_php_plugin.exe 直接复制走没用, 同级目录下还有2个.dll文件, 也要一起拿走
-
-#### 提示: 这个仓库是fork来的, 有个坑, grpc_php_plugin.exe 直接复制走没用, 同级目录下还有2个.dll文件, 也要一起拿走
+下面是我本地的一条命令, 仅供参考, 插件路径换成你自己的
+```shell
+protoc --proto_path=. --php_out=. --grpc_out=. --plugin=protoc-gen-grpc=/d/grpc_php_plugin/grpc_php_plugin.exe ./hello.proto
+```
 
 ⬆️⬆️⬆️⬆️⬆️⬆️
 
